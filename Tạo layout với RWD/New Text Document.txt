@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Tạo layout với RWD</title>
+</head>
+<body>
+<div id="header">
+	<h3>Logo</h3>
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Projects</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div id="container">
+<div id="left">
+<a href="#">Link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+</div>
+<div id="content">
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet conasd sdoj asic sadjo caio dsfo dsfoj dsfj. dsij  dasij dsofjdfs dsfijasd dsjfs  kdsfh dsflj odsji fdis dfjioas sdifo dsf  dsij  dasij dsofjdfs dsfijasd dsjfs  kdsfh dsflj odsji fdis dfjioas sdifo dsf  dsij  dasij dsofjdfs dsfijasd dsjfs  kdsfh dsflj odsji fdis dfjioas sdifo dsf dsij  dasij dsofjdfs dsfijasd dsjfs  kdsfh dsflj odsji fdis dfjioas sdifo dsf</p>
+<hr>
+<h3>
+	<p>Lorem ipsum ...</p>
+</h3>
+</div>
+<div id="right">
+<div class="ads"></div>
+<div class="ads"></div>
+</div>
+</div>
+<div id="footer">
+Footer Text</div>
+</body>
+</html>

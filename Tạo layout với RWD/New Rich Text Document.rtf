@@ -1,0 +1,53 @@
+#header ul li {
+    display: inline;
+    margin: 5px;
+}
+#header, #footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+#container{
+   height: 400px;
+   display: grid;
+  grid-template-areas:
+    'nav main main main main aside';
+}
+#left a{
+   display: block;
+   margin: 40px;
+
+}
+#left,#right{
+   background-color: lightgray;
+}
+.ads{
+   width: 200px;
+   height: 100px;
+   background-color: darkviolet;
+   margin: 10px;
+}
+#footer{
+   text-align: center;
+   padding: 10px;
+}
+#menu li a:hover{
+    background-color: black;
+    color: white;
+}
+#content{
+   margin: 5px;
+}
+@media only screen and (max-width: 500px) {
+#header, #footer {
+    color: green;
+    background-color: black;
+}
+#container{
+   height: 300px;
+   display: grid;
+   grid-template-areas:
+    'nav main'
+    'aside';
+}
+}
